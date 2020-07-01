@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(bg.png);
+	height: 100vh;
+	background-size: cover;
+	box-sizing: border-box;
+	font-family: 
+}
+#container {
+	position: absolute;
+	width: 400px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	border: solid 2px black;
+	text-align: center;
+	font-family: orbitron;
+	font-weight: 900;
+}
+.math {
+	box-sizing: border-box;
+	width: 49%;
+	border: none;
+	padding: 15px;
+	margin: -3px;
+	color: white;
+	cursor: pointer;
+	font-family: 'Roboto Slab', Serif;
+}
+#add {
+	background-color: green;
+}
+#minus {
+	background-color: red;
+}
+#reset {
+	width: 98%;
+	border: none;
+	padding: 15px;
+	font-family: 'Roboto Slab', Serif;
+	margin: 0;
+	color: white;
+	font-weight: bold;
+	background-color: yellow;
+	cursor: pointer;
+}
+#number {
+	font-size: 3em;
+	margin: 60px 0;
+	font-family: orbitron;
+	font-weight: 400;
+}
