@@ -12,7 +12,7 @@ body {
 }
 #container {
 	position: absolute;
-	width: 400px;
+	width: 350px;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -21,10 +21,11 @@ body {
 	text-align: center;
 	font-family: orbitron;
 	font-weight: 900;
+	padding: 0;
 }
 .math {
 	box-sizing: border-box;
-	width: 49%;
+	width: 50%;
 	border: none;
 	padding: 15px;
 	margin: -3px;
@@ -39,7 +40,7 @@ body {
 	background-color: red;
 }
 #reset {
-	width: 98%;
+	width: 100%;
 	border: none;
 	padding: 15px;
 	font-family: 'Roboto Slab', Serif;
